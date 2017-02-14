@@ -14,3 +14,7 @@ window.onscroll = function(){
 if(tur){ setTimeout(haha,1000); tur = true; 
 }else{ } 
 } 
+
+
+
+鼠标悬停 提示（tips）伪类 :after{content:attr(name)} //name为标签里的属性
