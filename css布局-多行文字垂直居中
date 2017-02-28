@@ -1,0 +1,36 @@
+css布局-多行文字垂直居中
+http://blog.csdn.net/hdchangchang/article/details/47086565
+
+方法1
+
+
+<style>  
+    *{padding: 0;margin:0;font-size: 12px;}  
+    div{float: left;width: 200px;height:200px;margin: 10px;border:1px solid blue; line-height: 200px;}  
+    span{display: inline-block;vertical-align: middle;line-height: 22px;}  
+</style>  
+  
+<div>  
+    <span>测试文字测试文字</span>  
+</div>  
+<div>  
+    <span>测试文字 <br/> 测试文字<br/> 测试文字<br/> 测试文字<br/> 测试文字<br/> 测试文字</span>  
+</div> 
+
+方法2
+
+
+<style>  
+    *{padding: 0;margin:0;font-size: 12px;}  
+    div{display: table-cell;width: 200px;border:1px solid blue;vertical-align: middle;}  
+</style>  
+  
+<div>  
+    <span>测试文字测试文字</span>  
+</div>  
+<div>  
+    测试文字测试文字  
+</div>  
+<div>  
+    <span>测试文字 <br/> 测试文字<br/> 测试文字<br/> 测试文字<br/> 测试文字<br/> 测试文字</span>  
+</div>  
