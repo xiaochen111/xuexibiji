@@ -1,0 +1,42 @@
+//给指定顺序进行排序
+var xin = ["赵","钱","孙","李","周","吴","郑","王"];
+var names =["王二","孙悟空","钱峰","周扒皮","郑爽","李四"];
+
+var result = [];
+for(var i = 0; i < xin.length; i++){
+var xinx = xin[i];
+names.forEach(function(item){
+  if(item.indexOf(xinx)!=-1){
+      result.push(item);
+    }
+  });
+}
+
+console.log(result)
+
+
+
+
+//对象进行排序
+var pers = [
+    {
+      name:"zhangsan",
+      age:22
+    },
+    {
+      name:"zhangsan",
+      age:11
+    },
+    {
+      name:"zhangsan",
+      age:13
+    }
+  ]
+
+var pai_x = pers.sort(compare);
+
+function compare(val1,val2){
+  return val1.age - val2.age;
+}
+
+
