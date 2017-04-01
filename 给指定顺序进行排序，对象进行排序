@@ -6,7 +6,7 @@ var result = [];
 for(var i = 0; i < xin.length; i++){
 var xinx = xin[i];
 names.forEach(function(item){
-  if(item.indexOf(xinx)!=-1){
+  if(item.indexOf(xinx)!=-1){ //循环进行匹配
       result.push(item);
     }
   });
