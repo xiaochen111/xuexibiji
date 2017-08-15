@@ -26,3 +26,5 @@ if(tur){ setTimeout(haha,1000); tur = true;
 
 
 5.react  react子组件改变父组件state   在父级上写一个方法 用属性的方式写在组件上  子集通过props调用此方法 从而改变父级的state
+
+6.angularjs表单验证 http://www.cnblogs.com/rohelm/p/4033513.html
