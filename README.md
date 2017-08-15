@@ -28,3 +28,15 @@ if(tur){ setTimeout(haha,1000); tur = true;
 5.react  react子组件改变父组件state   在父级上写一个方法 用属性的方式写在组件上  子集通过props调用此方法 从而改变父级的state
 
 6.angularjs表单验证 http://www.cnblogs.com/rohelm/p/4033513.html
+<form role="form" name="myForm" id="myForm" novalidate>
+    <div class="form-group col-md-4">
+    <label class="col-sm-3 control-label"><span class="red">*</span>提单号:{{myForm.tidan.$dirty}}</label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" placeholder="请输入提单号" name="tidan" required ng-model='formObj.tidan'>
+
+      <span class="glyphicon glyphicon-ok form-control-feedback"
+                        ng-show="myForm.tidan.$dirty">fsdfsd</span>
+    </div>
+  </div>
+  </form>
+（注意：ng-model='formObj.tidan'  这个一定要写  不然不起效果）
