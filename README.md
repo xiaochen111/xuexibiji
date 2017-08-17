@@ -17,7 +17,9 @@ if(tur){ setTimeout(haha,1000); tur = true;
 
 
 
-2.鼠标悬停 提示（tips）伪类 :after{content:attr(name)} //name为标签里的属性
+2.(1)鼠标悬停 提示（tips）伪类 :after{content:attr(name)} //name为标签里的属性
+(2) content: url(../images/menber/wallet/nike.jpg); .pos_a(); top: 44px; right: 0;
+
 
 
 3.css  -webkit-box-sizing:border-box   box-sizing:border-box   ????  好像对padding值有影响
