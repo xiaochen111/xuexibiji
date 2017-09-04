@@ -2,3 +2,4 @@
 2.https://developer.mozilla.org/zh-CN/docs/Web/JavaScript   Javascripe教程
 3.https://zhidao.baidu.com/question/1759217976973385948.html     vs code 前端如何以服务器模式打开
 4.React里的事件参数传递和传统的JS参数有些不一样，需要通过bind方法来绑定参数，第一个参数指向this,第二个参数开始才是事件函数接收到的参数
+5.Mirror 阿里前端推出新的 React 框架：Mirror   https://qianduan.guru/posts/5997b695852d815d019c1659
