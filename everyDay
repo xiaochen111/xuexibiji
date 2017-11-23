@@ -8,3 +8,5 @@
 8.http://www.jb51.net/article/89224.htm     mysql安装
 9.ajax  设置请求头headers   JQuery ajax设置Request Headers  http://blog.csdn.net/medivhq/article/details/51820559
 10.nodemon  nodemon 是一个工具，用于项目代码发生变化时可以自动重启，nodemon 本意时检测项目变化的，对项目做监控的。重启只是它的一个功能。
+11.moment.js  http://momentjs.cn/  时间格式化好帮手
+12.mysql 时间戳类型 TIMESTAMP 当这条数据发生变化时  时间戳会自动更新
