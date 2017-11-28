@@ -1,6 +1,8 @@
 上传本地代码到github
 http://blog.csdn.net/hanhailong726188/article/details/46738929
 
+http://blog.csdn.net/zamamiro/article/details/70172900 (创建SSH KEY  命令：ssh-keygen -t rsa  这步很重要  上个链接没有讲这步死活搞不定)
+
 
 git pull: 更新当前分支
 git pull origin master: 更新 origin remote 的 master 分支
