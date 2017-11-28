@@ -1,0 +1,110 @@
+a) git init (创建工作仓库)
+b) git add 文件名   // 把文件放在暂存区
+   1.git add -A //大写的A 全部加入缓存区
+   2.git add * //全部加入缓存区
+c) git commit -m '标记（注释）'
+   1.执行了一次commit 就新建了一个版本/存盘点
+   2.可以还原到任意一个存盘点
+d) git config --global user.name/email //配置
+e) git status //查看仓库状态
+   1.modified  被修改的
+   2.绿色的代表暂存区的文件
+   3.untarched files 未追踪的文件
+   4.git checkout  文件名 撤销更改  可以将缓存区的文件还原到工作区
+f) git log //查看存盘点(当前版本/历史) ，
+h) git reset --hard id git//commit(id)/（提交id）
+
+
+
+
+
+
+git(分支)
+ 
+
+a) master 分支
+   1.至少要创建一次commit
+   2.一个人干多件事情的时候，为了不冲突，建立分支
+   3.存盘点基于当前分支
+   4.
+
+b) git branch 分支名称 //创建分支
+
+c) git branch //查看分支
+
+d) git checkout 分支名称 //切换分支
+
+e) git merge 要合并的分支名 合并文件 （要在某个分支上使用这个命令）
+
+f) git branch -d(D) 分支名 //删除分支 （大写D表示强制删除）
+
+
+
+
+
+
+git 远程仓库
+
+1. git push 远程仓库地址 master（分支名称） //将master共享至远程仓库
+
+2. git pull 远程仓库地址 分支名称  //获取分支最新代码
+
+3. 共享仓库
+   a) xxx.git结尾的目录
+   b) 必须是裸仓库（没有工作目录的仓库）git init -bare:创建裸仓库
+      
+4. git 会自动忽略空文件夹
+
+5. git remote add 变量名 远程仓库地址
+
+6. git clone 远程仓库地址 根目录名称（可选）
+
+
+
+
+github 
+
+1. 创建密钥
+   a) ssh-keygen -t rsa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
