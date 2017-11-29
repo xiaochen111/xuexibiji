@@ -70,6 +70,44 @@ github
 
 
 
+git  常用命令
+
+1.git config  配置本地仓库
+  a) git config --global user.name/git config --global user.email
+  b）git config --list 查看配置详情
+
+2.git init 初始化一个仓库 添加--bare可以初始化一个共享（裸）仓库
+
+3.git status 查看当前仓库的状态
+
+4.git add '文件' 将工作区的文件添加到暂存区中  其中file可以是一个单独的文件 也可以是一个单独的
+  目录。“*”，-A
+
+5.git commit -m '备注信息'  将缓存器的文件提交到本地仓库
+
+6.git reset --hard id git//commit(id)/（提交id）
+
+7.git log 查看本地仓库的提交历史
+
+8.git branch 查看分支
+
+9.git branch "分支名称" 创建一个新分支
+
+10.git checkout "分支名" 切换分支
+   git checkout -b "分支名" 创建并切换分支
+
+11.git merge "分支名" 合并分支
+
+12.git branch -b "分支名"  删除分支名
+
+13.git clone "仓库地址" 克隆仓库
+
+14.git push origin "本地分支名称：远程分支名称" 将本地分支推送到远程仓库
+
+15.git pull "仓库地址 分支名" 下载文件
+
+16.git remote 查看远程地址的别名
+   git remote show "远程地址的别名"  查看远程地址
 
 
 
