@@ -11,3 +11,4 @@
 11.moment.js  http://momentjs.cn/  时间格式化好帮手
 12.mysql 时间戳类型 TIMESTAMP 当这条数据发生变化时  时间戳会自动更新
 13.css清浮动  http://blog.csdn.net/promisecao/article/details/52771856
+14.sublim text3快速生成html代码时，tab键失效问题    (无法使用tab键快速生成html代码（使用快捷键的前提是你要先安装好emmet插件）)
