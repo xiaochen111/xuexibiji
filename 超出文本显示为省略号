@@ -1,0 +1,18 @@
+多行文本超出显示为省略号
+
+多行文本超出显示为省略号的需求，仅仅使用HTML和CSS就很难实现了。通常我们可以使用JS辅助进行实现。看如下案例：
+
+<style>
+    .text-overflow {
+        width: 400px;
+        line-height: 20px;
+    }
+</style>
+<div class="text-overflow" id="con">HTML5学堂：本文当中我们主要为大家讲解如何实现文本超出显示为省略号；同时讲解一下，在网页开发与制作的时候，我们什么时候应该考虑内容撑开宽高，又应该在何时考虑文本超出的问题。</div>
+<script>
+    var con = document.getElementById('con');
+    var textCon = con.innerHTML;
+    con.innerHTML = textCon.substring(0, 49) + '…';
+</script>
+
+基本原理很简单：通过innerHTML获取元素的内容，之后使用字符串方法进行截取，截取前49个字符，之后，在这49个字符之后连接一个“...”，最后，将这个截取后的字符串赋值给原来的元素内容即可。
